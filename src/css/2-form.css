@@ -6,12 +6,15 @@ textarea[name="message"]{
 .feedback-form{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin: 0  auto;
+    width: 360px;
 }
 
-.feedback-form label{
+/* .feedback-form label{
     display: flex;
     flex-direction: column;
-}
+} */
 
 .feedback-form label:first-child{
     margin-bottom: 8px;
